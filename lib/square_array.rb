@@ -2,17 +2,11 @@
 
 
 def square_array(array)
-
-i = 0
-j = 0
-while array.length > i
-num = array[j] ** array[j]
-
-
-
-return num
+  arr = []
+  count = 0
+  while count < array.size do
+    arr << (array[count] ** 2)
+    count = count + 1
+  end
+  return arr
 end
-
-
-end
-s
